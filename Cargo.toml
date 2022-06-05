@@ -1,0 +1,19 @@
+# SPDX-FileCopyrightText: 2020 Leonora Tindall <nora@nora.codes>
+#
+# SPDX-License-Identifier: AGPL-3.0-or-later WITH LicenseRef-AppStore
+
+[package]
+name = "permute"
+authors = [
+    "Leonora Tindall <nora@nora.codes>",
+]
+version = "0.2.0"
+description = "Generate permutations of vectors and slices in a memory-efficient and deterministic manner, using Heap's algorithm."
+categories = ["algorithms", "simulation"]
+keywords = ["combinatorics", "permutations", "heaps", "algorithm", "permutation"]
+license = "AGPL-3.0-or-later"
+repository = "https://github.com/NoraCodes/permute-rs"
+edition = "2021"
+
+[dependencies]
+
