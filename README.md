@@ -33,3 +33,7 @@ green, blue, red,
 blue, green, red,
 ```
 
+This crate also provides the `ArbitraryTandemControlIter`, which allows
+iterating over a slice using a slice of indices - that's how Heap's algorithm is
+implemented here.
+

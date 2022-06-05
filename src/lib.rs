@@ -8,5 +8,6 @@ mod arbitrary_tandem_control_iter;
 mod permutations;
 mod permute_iter;
 
+pub use arbitrary_tandem_control_iter::ArbitraryTandemControlIterator;
 pub use permutations::permute;
 pub use permute_iter::permutations_of;

@@ -18,7 +18,7 @@ use std::marker::PhantomData;
 /// # Example
 ///
 /// ```
-/// # use permute::arbitrary_tandem_control_iter::ArbitraryTandemControlIterator;
+/// # use permute::ArbitraryTandemControlIterator;
 /// let data = vec![
 ///     String::from("red"),
 ///     String::from("orange"),
